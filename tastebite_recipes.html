@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteBite Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef9f6;
+            color: #333;
+        }
+        header {
+            background: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+            color: #ff6f61;
+        }
+        .recipes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .recipe {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 300px;
+            text-align: center;
+        }
+        .recipe img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .recipe h3 {
+            margin: 10px;
+            color: #ff6f61;
+        }
+        .recipe p {
+            padding: 0 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        .recipe a {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            color: white;
+            background: #ff6f61;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .recipe a:hover {
+            background: #e55d50;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Recipes with TasteBite</h1>
+    </header>
+
+    <div class="container">
+        <h2>Our Featured Recipes</h2>
+        <div class="recipes">
+            <div class="recipe">
+                <img src="https://via.placeholder.com/300x200" alt="Recipe 1">
+                <h3>Spaghetti Bolognese</h3>
+                <p>A classic Italian dish with a rich, meaty sauce.</p>
+                <a href="#">View Recipe</a>
+            </div>
+            <div class="recipe">
+                <img src="https://via.placeholder.com/300x200" alt="Recipe 2">
+                <h3>Avocado Salad</h3>
+                <p>A refreshing and healthy salad for any occasion.</p>
+                <a href="#">View Recipe</a>
+            </div>
+            <div class="recipe">
+                <img src="https://via.placeholder.com/300x200" alt="Recipe 3">
+                <h3>Chocolate Cake</h3>
+                <p>Indulge in a rich and moist chocolate dessert.</p>
+                <a href="#">View Recipe</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 TasteBite. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
